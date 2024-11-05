@@ -29,7 +29,10 @@ TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
 ```dart
-const like = 'sample';
+route_transition:
+    git: 
+      url: https://github.com/Yogesh-droid/flutter_route_transition.git
+      ref: main
 ```
 
 ## Additional information

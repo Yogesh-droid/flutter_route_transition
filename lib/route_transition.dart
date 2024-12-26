@@ -12,7 +12,7 @@ class RouteTransition {
       TransitionType? animationType}) {
     return CustomTransitionPage(
         child: child,
-        transitionDuration: duration ?? const Duration(milliseconds: 200),
+        transitionDuration: duration ?? const Duration(milliseconds: 500),
         transitionsBuilder: (BuildContext context, Animation<double> animation,
             Animation<double> secondaryAnimation, Widget child) {
           switch (animationType) {
